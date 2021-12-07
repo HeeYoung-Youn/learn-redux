@@ -11,4 +11,4 @@ const TodoItem = ({ todo, onToggle }) => {
   );
 };
 
-export default TodoItem;
+export default React.memo(TodoItem);
